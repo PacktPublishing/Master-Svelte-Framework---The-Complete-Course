@@ -1,0 +1,10 @@
+ZenQuotes Documentation
+https://docs.zenquotes.io/zenquotes-documentation/
+
+
+Bootstrap
+https://getbootstrap.com/
+
+
+Svelte Kit
+https://kit.svelte.dev/

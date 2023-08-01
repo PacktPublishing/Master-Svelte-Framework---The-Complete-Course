@@ -1,0 +1,30 @@
+{
+	"name": "booklovers",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"bootstrap": "^5.2.3",
+		"firebase": "^9.17.1",
+		"firebase-admin": "^11.5.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"typescript": "^4.9.3",
+		"uuid": "^9.0.0",
+		"vite": "^4.0.0",
+		"yup": "^1.0.0"
+	},
+	"type": "module"
+}
